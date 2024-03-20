@@ -1,42 +1,132 @@
-@media (max-width: 1475px){
-    html{
+@media (max-width: 1475px) {
+    html {
         font-size: 50%;
     }
 }
 
-@media (max-width: 1200px){
-    html{
+@media (max-width: 1200px) {
+    html {
         font-size: 45%;
     }
 }
 
-@media (max-width: 1070px){
-    html{
+@media (max-width: 1070px) {
+    html {
         font-size: 40%;
     }
 }
 
-@media (max-width: 950px){
-    html{
+@media (max-width: 950px) {
+    html {
         font-size: 35%;
     }
 }
 
-@media (max-width: 830px){
-    html{
+@media (max-width: 830px) {
+    html {
         font-size: 30%;
     }
 }
 
-@media (max-width: 710px){
-    html{
+@media (max-width: 710px) {
+    html {
         font-size: 25%;
     }
 }
 
-@media (max-width: 600px){
-    html{
+@media (max-width: 600px) {
+    html {
         font-size: 22%;
     }
 }
 
+@media (max-width: 525px) {
+    html {
+        font-size: 15%;
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px auto;
+        gap: 6.6rem;
+    }
+
+    .hero-img {
+        max-width: 60%;
+    }
+
+    .hero-img-box {
+        text-align: center;
+    }
+
+    .heading-primary {
+        text-align: center;
+    }
+
+    .hero-description {
+        text-align: center;
+    }
+
+    .button-hero {
+        text-align: center;
+    }
+
+    .delivered-meals {
+        justify-content: center;
+    }
+
+    .cta {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .cta-form {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-form label {
+        text-align: left;
+    }
+}
+
+@media (max-width: 440px) {
+    .footer-box {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid--5-cols {
+        display: contents;
+    }
+
+
+    .lower-footer {
+        margin-top: 8rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4rem;
+        row-gap: 6rem;
+    }
+
+    .contacts {
+        font-style: normal;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        list-style-type: none;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-col{
+        align-items: center;
+    }
+
+    .address{
+        max-width: 20rem;
+    }
+}

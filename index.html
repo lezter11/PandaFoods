@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
@@ -40,8 +40,10 @@
                 <p class="hero-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quisquam
                     explicabo laboriosam cumque
                     error, animi aperiam voluptatum voluptas! Fugit, quis!</p>
-                <a href="#"><button class="btn--full">Start eating well</button></a>
-                <a href="#"><button class="btn--outline">Learn more &darr;</button></a>
+                <div class="button-hero">
+                    <a href="#"><button class="btn--full">Start eating well</button></a>
+                    <a href="#"><button class="btn--outline">Learn more &darr;</button></a>
+                </div>
 
                 <div class="delivered-meals">
                     <div class="delivered-img">
@@ -203,74 +205,78 @@
 
     <footer>
         <div class="container grid grid--5-cols">
-            <div class="logo-col">
-                <a href="#">
-                    <img src="img/pandafoods.png" alt="Pandafood logo" class="logo">
-                </a>
-                <ul class="socials">
-                    <li>
-                        <a href="#" class="footer-link">
-                            <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">
-                            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">
-                            <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-link">
-                            <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
-                        </a>
-                    </li>
-                </ul>
-
-                <p class="copyright">Copyright &copy2024 by PandaFoods INC.x All Rights Reserved</p>
+            <div class="footer-box">
+                <div class="logo-col">
+                    <a href="#">
+                        <img src="img/pandafoods.png" alt="Pandafood logo" class="logo">
+                    </a>
+                    <ul class="socials">
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <p class="copyright">Copyright &copy2024 by PandaFoods INC.x All Rights Reserved</p>
+                </div>
+    
+                <div class="lower-footer">
+                    <div class="address-col">
+                        <p class="footer-heading">Contact Us</p>
+                        <address class="contacts">
+                            <p class="address"> L-60B, Gurudwara Rd, Malviya Nagar, Block H 6, Malviya Nagar</p>
+        
+                            <a class="footer-link" href="tel:+91705039889">+91705039889</a>
+                            <a class="footer-link" href="mailto:">hello@pandafoods.com</a>
+                        </address>
+                    </div>
+        
+                    <div class="nav-col">
+                        <p class="footer-heading">Account</p>
+                        <ul class="footer-nav">
+                            <li><a href="#" class="footer-link">Create Account</a></li>
+                            <li><a href="#" class="footer-link">Sign In </a></li>
+                            <li><a href="#" class="footer-link">IOS App</a></li>
+                            <li><a href="#" class="footer-link">Android App</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-col">
+                        <p class="footer-heading">About</p>
+                        <ul class="footer-nav">
+                            <li><a href="#" class="footer-link">For Business</a></li>
+                            <li><a href="#" class="footer-link">About PandaFoods</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                            <li><a href="#" class="footer-link">Cooking Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-col">
+                        <p class="footer-heading">Resources</p>
+                        <ul class="footer-nav">
+                            <li><a href="#" class="footer-link">Privacy and Policies</a></li>
+                            <li><a href="#" class="footer-link">Recipe directory</a></li>
+                            <li><a href="#" class="footer-link">Help Centre</a></li>
+                            <li><a href="#" class="footer-link">Connect with Us</a></li>
+                        </ul>
+                    </div>
+        
+                </div>
             </div>
-
-            <div class="address-col">
-                <p class="footer-heading">Contact Us</p>
-                <address class="contacts">
-                    <p class="address"> L-60B, Gurudwara Rd, Malviya Nagar, Block H 6, Malviya Nagar</p>
-
-                    <a class="footer-link" href="tel:+91705039889">+91705039889</a>
-                    <a class="footer-link" href="mailto:">hello@pandafoods.com</a>
-                </address>
-            </div>
-
-            <div class="nav-col">
-                <p class="footer-heading">Account</p>
-                <ul class="footer-nav">
-                    <li><a href="#" class="footer-link">Create Account</a></li>
-                    <li><a href="#" class="footer-link">Sign In </a></li>
-                    <li><a href="#" class="footer-link">IOS App</a></li>
-                    <li><a href="#" class="footer-link">Android App</a></li>
-                </ul>
-            </div>
-            <div class="nav-col">
-                <p class="footer-heading">About</p>
-                <ul class="footer-nav">
-                    <li><a href="#" class="footer-link">For Business</a></li>
-                    <li><a href="#" class="footer-link">About PandaFoods</a></li>
-                    <li><a href="#" class="footer-link">Careers</a></li>
-                    <li><a href="#" class="footer-link">Cooking Partners</a></li>
-                </ul>
-            </div>
-            <div class="nav-col">
-                <p class="footer-heading">Resources</p>
-                <ul class="footer-nav">
-                    <li><a href="#" class="footer-link">Privacy and Policies</a></li>
-                    <li><a href="#" class="footer-link">Recipe directory</a></li>
-                    <li><a href="#" class="footer-link">Help Centre</a></li>
-                    <li><a href="#" class="footer-link">Connect with Us</a></li>
-                </ul>
-            </div>
-
 
         </div>
 
