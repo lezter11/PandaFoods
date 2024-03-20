@@ -1,0 +1,42 @@
+@media (max-width: 1475px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 1200px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media (max-width: 1070px){
+    html{
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 950px){
+    html{
+        font-size: 35%;
+    }
+}
+
+@media (max-width: 830px){
+    html{
+        font-size: 30%;
+    }
+}
+
+@media (max-width: 710px){
+    html{
+        font-size: 25%;
+    }
+}
+
+@media (max-width: 600px){
+    html{
+        font-size: 22%;
+    }
+}
+
