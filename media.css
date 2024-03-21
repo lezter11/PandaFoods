@@ -90,6 +90,54 @@
 }
 
 @media (max-width: 440px) {
+
+    html {
+        font-size: 10%;
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px auto;
+        gap: 6.6rem;
+    }
+
+    .hero-img {
+        max-width: 60%;
+    }
+
+    .hero-img-box {
+        text-align: center;
+    }
+
+    .heading-primary {
+        text-align: center;
+    }
+
+    .hero-description {
+        text-align: center;
+    }
+
+    .button-hero {
+        text-align: center;
+    }
+
+    .delivered-meals {
+        justify-content: center;
+    }
+
+    .cta {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .cta-form {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-form label {
+        text-align: left;
+    }
+
     .footer-box {
         justify-content: center;
         display: flex;
